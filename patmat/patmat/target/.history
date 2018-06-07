@@ -1,0 +1,24 @@
+console
+val l = List(1,2)
+console
+test
+console
+"hello world".toList.groupBy(c => c).map(t => (t._1, t._2.length))
+exit
+"hello world".toList.groupBy(c => c).map(t => (t._1, t._2.length))
+console
+test
+test-only *.HuffmanSuite -- -z decode
+test-only *.HuffmanSuite -- -z "decode, "
+test-only *.HuffmanSuite -- -z "decoded "
+test-only *.HuffmanSuite -- -z "decode"
+compile
+test-only *.HuffmanSuite -- -z "decode"
+test-only *.HuffmanSuite -- -z "quickEncode"
+test-only *.HuffmanSuite -- -z codeBits
+clean
+compile
+test-only *.HuffmanSuite -- -z codeBits
+test-only *.HuffmanSuite -- -z "quickEncode"
+test
+submit andrew.duryea397@gmail.com 0jjiHgVKTWjLIk9y

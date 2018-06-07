@@ -1,0 +1,36 @@
+compile
+test
+test-only *.TweetSetSuite -- -z filter
+test-only *.TweetSetSuite -- -z "filter: a on set5"
+test-only *.TweetSetSuite -- -z "filter: a on set2"
+test-only *.TweetSetSuite -- -z filter
+test-only *.TweetSetSuite -- -z union
+test-only *.TweetSetSuite -- -z "union: set4c and set4d"
+test-only *.TweetSetSuite -- -z filter
+test-only *.TweetSetSuite -- -z "union: set4c and set4d"
+test-only *.TweetSetSuite -- -z union
+test-only *.TweetSetSuite -- -z mostRetweeted
+test
+submit andrew.duryea397@gmail.com btL58sc4Mry7FEFg
+test-only *.TweetSetSuite -- -z mostRetweeted
+test-only *.TweetSetSuite -- -z descendingByRetweet
+test-only *.TweetSetSuite -- -z descending
+run
+test
+submit andrew.duryea397@gmail.com descending
+submit andrew.duryea397@gmail.com GS5UxMsQSo4nznlX
+test
+test-only *.TweetSetSuite -- -z large
+test-only *.TweetSetSuite -- -z 321
+test
+submit andrew.duryea397@gmail.com UaFeuQIh8RIdpADk
+test-only *.TweetSetSuite -- -z 321
+compile
+test:compile
+test-only *.TweetSetSuite -- -z 321
+compile
+test:compile
+test-only *.TweetSetSuite -- -z 321
+compile
+test:compile
+test-only *.TweetSetSuite -- -z 321

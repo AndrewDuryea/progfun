@@ -1,0 +1,17 @@
+[0m[[0minfo[0m] [0m[32mHuffmanSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- weight of a larger tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- chars of a larger tree[0m[0m
+[0m[[0minfo[0m] [0m[32m- times, counts the frequency of chars in a List[0m[0m
+[0m[[0minfo[0m] [0m[32m- string2chars("hello, world")[0m[0m
+[0m[[0minfo[0m] [0m[32m- makeOrderedLeafList for some frequency table[0m[0m
+[0m[[0minfo[0m] [0m[32m- singleton, checks if the length of the list equals 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- sortByWeights, sorts a list of CodeTree by ascending weight[0m[0m
+[0m[[0minfo[0m] [0m[32m- combine of some leaf list[0m[0m
+[0m[[0minfo[0m] [0m[32m- until, does a thing to a list of CodeTree until a predicate is true[0m[0m
+[0m[[0minfo[0m] [0m[32m- createCodeTree, does what it says on the tin[0m[0m
+[0m[[0minfo[0m] [0m[32m- decode, should take a bit string and return the decode character string[0m[0m
+[0m[[0minfo[0m] [0m[32m- decoded secret[0m[0m
+[0m[[0minfo[0m] [0m[32m- decode and encode a very short text should be identity[0m[0m
+[0m[[0minfo[0m] [0m[32m- decode and encode with longer text[0m[0m
+[0m[[0minfo[0m] [0m[32m- codeBits, should encode a single char[0m[0m
+[0m[[0minfo[0m] [0m[32m- quickEncode, should also encode a string[0m[0m

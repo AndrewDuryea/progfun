@@ -1,0 +1,23 @@
+[0m[[0minfo[0m] [0m[32mAnagramsSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- wordOccurrences: abcd[0m[0m
+[0m[[0minfo[0m] [0m[32m- wordOccurrences: Robert[0m[0m
+[0m[[0minfo[0m] [0m[32m- sentenceOccurrences: abcd e[0m[0m
+[0m[[0minfo[0m] [0m[32m- dictionaryByOccurrences.get: eat[0m[0m
+[0m[[0minfo[0m] [0m[32m- word anagrams: married[0m[0m
+[0m[[0minfo[0m] [0m[32m- word anagrams: player[0m[0m
+[0m[[0minfo[0m] [0m[32m- subtract: lard - r[0m[0m
+[0m[[0minfo[0m] [0m[32m- subtract: order[0m[0m
+[0m[[0minfo[0m] [0m[32m- subtract: empty[0m[0m
+[0m[[0minfo[0m] [0m[32m- combinations: [][0m[0m
+[0m[[0minfo[0m] [0m[32m- combinations: a only[0m[0m
+[0m[[0minfo[0m] [0m[32m- combinations: ab only[0m[0m
+[0m[[0minfo[0m] [0m[32m- combinations: abba[0m[0m
+[0m[[0minfo[0m] [0m[32m- combinations: icy[0m[0m
+[0m[[0minfo[0m] [0m[32m- take 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- take 2[0m[0m
+[0m[[0minfo[0m] [0m[32m- take 3[0m[0m
+[0m[[0minfo[0m] [0m[32m- drop 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- drop 2[0m[0m
+[0m[[0minfo[0m] [0m[32m- sentence anagrams: [][0m[0m
+[0m[[0minfo[0m] [0m[32m- sentence anagrams: Linux rulez[0m[0m
+[0m[[0minfo[0m] [0m[32m- sentence anagrams: small[0m[0m

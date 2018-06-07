@@ -1,0 +1,13 @@
+[0m[[0minfo[0m] [0m[32mTweetSetSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- filter: on empty set[0m[0m
+[0m[[0minfo[0m] [0m[32m- filter: a on set2[0m[0m
+[0m[[0minfo[0m] [0m[32m- filter: a on set5[0m[0m
+[0m[[0minfo[0m] [0m[32m- filter: 20 on set5[0m[0m
+[0m[[0minfo[0m] [0m[32m- filter: tweet with 321 retweets[0m[0m
+[0m[[0minfo[0m] [0m[32m- union: set4c and set4d[0m[0m
+[0m[[0minfo[0m] [0m[32m- union: with empty set (1)[0m[0m
+[0m[[0minfo[0m] [0m[32m- union: with empty set (2)[0m[0m
+[0m[[0minfo[0m] [0m[32m- mostRetweeted: throw an exception on an empty set[0m[0m
+[0m[[0minfo[0m] [0m[32m- mostRetweeted: return the most retweeted tweet[0m[0m
+[0m[[0minfo[0m] [0m[32m- mostRetweeted: should return the smaller of two Tweets with the same retweets[0m[0m
+[0m[[0minfo[0m] [0m[32m- descending: set5[0m[0m

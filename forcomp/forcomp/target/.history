@@ -1,0 +1,64 @@
+test
+test-only *.AnagramsSuite -- -z wordOccurences
+test-only *.AnagramsSuite -- -z wordOccurrences
+test-only *.AnagramsSuite -- -z sentenceOccurrences
+test-only *.AnagramsSuite -- -z dictionaryByOccurrences
+test-only *.AnagramsSuite -- -z 
+test-only *.AnagramsSuite -- -z wordAnagrams
+test-only *.AnagramsSuite -- -z "word anagrams"
+test-only *.AnagramsSuite -- -z combinations
+M`?
+test-only *.AnagramsSuite -- -z combinations
+clean
+test-only *.AnagramsSuite -- -z combinations
+test-only *.AnagramsSuite -- -z  "combinations: abba"
+test-only *.AnagramsSuite -- -z  "combinations: a"
+test-only *.AnagramsSuite -- -z  "combinations: a only"
+test-only *.AnagramsSuite -- -z  "combinations: abba"
+test-only *.AnagramsSuite -- -z take
+test-only *.AnagramsSuite -- -z drop
+clean
+test-only *.AnagramsSuite -- -z drop
+test-only *.AnagramsSuite -- -z take
+test-only *.AnagramsSuite -- -z  "combinations: abba"
+test-only *.AnagramsSuite -- -z take
+test-only *.AnagramsSuite -- -z  "combinations: abba"
+test-only *.AnagramsSuite -- -z  subtract
+test-only *.AnagramsSuite -- -z "sentence anagrams"
+compit
+test:compile
+compile
+test-only *.AnagramsSuite -- -z "sentence anagrams"
+test-only *.AnagramsSuite -- -z  subtract
+test-only *.AnagramsSuite -- -z  "subtract: empty"
+test-only *.AnagramsSuite -- -z "sentence anagrams"
+test-only *.AnagramsSuite -- -z  "subtract: empty"
+test-only *.AnagramsSuite -- -z "sentence anagrams"
+clean
+test-only *.AnagramsSuite -- -z "sentence anagrams"
+test-only *.AnagramsSuite -- -z "sentence anagrams: small"
+test-only *.AnagramsSuite -- -z "sentence anagrams"
+test-only *.AnagramsSuite -- -z "sentence anagrams: small"
+test-only *.AnagramsSuite -- -z "sentence anagrams"
+test-only *.AnagramsSuite -- -z "sentence anagrams: small"
+test-only *.AnagramsSuite -- -z icy
+test-only *.AnagramsSuite -- -z "sentence anagrams: small"
+clean
+test-only *.AnagramsSuite -- -z "sentence anagrams: small"
+submit andrew.duryea397@gmail.com a7XhWVIVMuagSui4
+test-only *.AnagramsSuite -- -z "subtract: order"
+submit andrew.duryea397@gmail.com a7XhWVIVMuagSui4
+test-only *.AnagramsSuite -- -z "sentence anagrams: small"
+test-only *.AnagramsSuite -- -z "icy"
+test-only *.AnagramsSuite -- -z "aba"
+test-only *.AnagramsSuite -- -z "abba"
+test-only *.AnagramsSuite -- -z "icy"
+test-only *.AnagramsSuite -- -z "a only"
+test-only *.AnagramsSuite -- -z "ab"
+test-only *.AnagramsSuite -- -z "ab only"
+test-only *.AnagramsSuite -- -z "icy"
+test-only *.AnagramsSuite -- -z "combinations"
+test-only *.AnagramsSuite -- -z "sentence anagrams: small"
+test-only *.AnagramsSuite -- -z "sentence anagrams"
+submit andrew.duryea397@gmail.com qoMnYyfdQJCMLuDR
+test
